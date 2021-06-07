@@ -7,7 +7,6 @@ class TestCase(unittest.TestCase):
     def test_add_1(self):
         self.assertEqual(example.addition(1, 2), 3)
 
-
     def test_subtract_1(self):
         self.assertEqual(example.subtract(1, 1), 0)
 
